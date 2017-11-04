@@ -1,0 +1,6 @@
+minisatip (0.7.7-git~71e1b8b) unstable; urgency=low
+
+  * initial checkin
+  * Standards-Version: 3.9.6
+
+ -- Sascha Kuehndel <dev@inusasha.de>  Sat, 04 Nov 2017 17:10:00 +0100

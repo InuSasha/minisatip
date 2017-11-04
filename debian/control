@@ -1,0 +1,16 @@
+Source: minisatip
+Section: video
+Priority: extra
+Maintainer: Sascha Kuehndel <dev@inusasha.de>
+Uploaders: Sascha Kuehndel <dev@inusasha.de>
+Build-Depends: debhelper (>= 9), libssl-dev, libdvbcsa-dev, dvb-apps
+Standards-Version: 3.9.6
+Homepage: https://minisatip.org/
+Vcs-Git: https://github.com/InuSasha/minisatip.git
+Vcs-Browser: https://github.com/InuSasha/minisatip
+
+Package: minisatip
+Architecture: any
+Depends: ${misc:Depends}, openssl, libdvbcsa, dvb-apps
+Description: Dieses Plugin wird vom VDR als Ausgabegerät erkannt.
+ Minisatip is a multi-threaded satip server version 1.2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.

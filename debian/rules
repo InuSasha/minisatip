@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE = 1
+export LDFLAGS = -lpthread
+export DEB_CONFIGURE_EXTRA_FLAGS = --disable-dvbapi
+
+%:
+	dh $@
+
+override_dh_auto_test:
+	echo no
+
+#get-vcs-snapshot:
+#	sh debian/get-vcs-snapshot.sh
