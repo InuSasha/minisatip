@@ -1,3 +1,9 @@
+minisatip (0.7.7-20171104~git71e1b8b) unstable; urgency=low
+
+  * fix dependencies
+
+ -- Sascha Kuehndel <dev@inusasha.de>  Sat, 04 Nov 2017 20:39:00 +0100
+
 minisatip (0.7.7-git~71e1b8b) unstable; urgency=low
 
   * initial checkin
