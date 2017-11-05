@@ -5,11 +5,15 @@ export DH_VERBOSE = 1
 export LDFLAGS = -lpthread
 export DEB_CONFIGURE_EXTRA_FLAGS = --disable-dvbapi
 
+.PHONY: override_dh_auto_install
+
+override_dh_auto_install:
+	mkdir -p debian/minisatip/usr/bin
+	cp minisatip debian/minisatip/usr/bin
+	chmod 755 debian/minisatip/usr/bin/minisatip
+
 %:
 	dh $@
 
 override_dh_auto_test:
-	echo no
-
-#get-vcs-snapshot:
-#	sh debian/get-vcs-snapshot.sh
+	@

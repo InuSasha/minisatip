@@ -1,3 +1,9 @@
+minisatip (0.7.7.20171105~git71e1b8b) unstable; urgency=low
+
+  * make type native
+
+ -- Sascha Kuehndel <dev@inusasha.de>  Sun, 05 Nov 2017 15:23:00 +0100
+
 minisatip (0.7.7-20171104~git71e1b8b) unstable; urgency=low
 
   * fix dependencies

@@ -8,4 +8,5 @@ src/Makefile
 tests/Makefile
 debian/files
 debian/minisatip
-
+src/confdefs.h
+debian/minisatip.substvars
